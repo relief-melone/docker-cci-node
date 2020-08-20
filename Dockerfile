@@ -1,4 +1,4 @@
-ARG NODE_VERSION=12
+ARG NODE_VERSION=latest
 
 FROM circleci/node:${NODE_VERSION}-browsers
 
